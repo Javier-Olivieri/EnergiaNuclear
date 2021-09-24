@@ -123,7 +123,7 @@
 }
 @media screen and (min-width: 413px) and (max-width: 414px) {
 .menut ul li {
-    margin-left: -22px;
+    margin-left: -26px;
     margin-top: 3px;
    }
 
@@ -132,9 +132,11 @@
     }
 
     .subtet{
-        margin-left: -10px;
-        font-size: 12px;
-        letter-spacing: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+        letter-spacing: 2px;
     }
          
     .modal-titles{
