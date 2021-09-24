@@ -1,0 +1,220 @@
+.vide video {
+    width: 1000px;
+}
+
+.vide{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+
+.func{
+    background-color: lightblue;
+}
+
+.kl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kl{
+    &__central{
+    font-family: 'Lobster Two', cursive;
+    font-size: 4rem;
+    text-decoration: underline;
+    }
+}
+
+.menu__func{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.menu__func img{
+    height: 150px;
+    
+}
+
+.cards-body{
+    background-color: $color3;
+}
+
+.cards {
+    &-text{
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+}
+
+.caja {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.modal-title{
+  display: inline-block;
+  margin-left: 60px;
+  text-decoration: underline;
+  
+}
+
+.pie{
+    &__graxo{
+        font-family: 'Ephesis', cursive;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+}
+
+.modal{
+    &-header {
+        background-color: red;
+    }&-footer{
+        background-color: blue;
+    }&-body{
+        font-weight: bold;
+    }
+}
+@media screen and (min-width: 374px) and (max-width: 375px) {
+    .kl__central{
+        font-size: 38px;
+        
+    }
+
+    .cards-body{
+        height: 830px;
+    }
+
+    .modal-title{
+        font-size: 15px;
+        margin-left: 40px;
+    }
+
+    .vide video{
+        width: 375px;
+    }
+
+    .pie__graxo{
+        font-size: 18px;
+        margin-left: -8px;
+    }
+
+}
+@media screen and (min-width: 413px) and (max-width: 414px) {
+
+    .kl__central{
+        font-size: 38px;
+    }
+
+    .cards-body{
+        height: 700px;
+    }
+
+    .modal-title{
+        font-size: 15px;
+    }
+
+    .vide video{
+        width: 414px;
+    }
+
+    .pie__graxo{
+        font-size: 20px;
+    }
+
+
+}
+
+@media screen and (min-width: 427px) and (max-width: 428px) {
+    .kl__central{
+        font-size: 40px;
+    }
+
+    .cards-body{
+        height: 700px;
+    }
+
+    .modal-title{
+        font-size: 18px;
+        margin-left: 35px;
+    }
+
+    .vide video{
+        width: 428px;
+    }
+
+    .pie__graxo{
+        font-size: 20px;
+    }
+    
+}
+
+@media screen and (min-width: 767px) and (max-width: 768px) {
+    .kl__central{
+        font-size: 55px;
+    }
+
+    .cards-body{
+        height: 350px;
+    }
+
+    .modal-title{
+        font-size: 18px;
+        margin-left: 85px;
+    }
+
+    .vide video{
+        width: 768px;
+    }
+
+    .pie__graxo{
+        font-size: 38px;
+    }
+
+
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1024px)  {
+    .cards-body{
+        height: 320px;
+    }
+    
+}
+
+@media screen and (min-width: 1279px) and (max-width: 1280px) {
+    .cards-body{
+        height: 320px;
+    }
+}
+
+@media screen and (min-width: 1339px) and (max-width: 1440px) {
+    .cards-body{
+        height: 350px;
+    }
+
+    
+}
+
+@media screen and (min-width: 1919px) and (max-width: 1920px) {
+    .cards-body{
+        height: 330px;
+    }
+    
+}
+
+@media screen and (min-width: 2559px) {
+ 
+     .cards-body {
+         height: 330px;
+     }
+
+     .pie__graxo{
+         font-size: 50px;
+     }
+    
+}

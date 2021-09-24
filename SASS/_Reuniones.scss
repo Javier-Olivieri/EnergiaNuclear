@@ -1,0 +1,212 @@
+/*Reuniones*/
+
+.nana{
+    background-color: lightblue;
+}
+
+
+.menut ul li {
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 30px;
+    border: 2px double black;
+ 
+ }
+/*Se toman parametros de la animación ubicada en index*/
+.animate{
+    &__animated{
+        background-color:$bgcolor5;
+    }
+}
+
+.miMenu {
+    background-color: rgb(156, 134, 138)
+}
+
+.subtet{
+    font-family: 'Open Sans Condensed', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    letter-spacing: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.contenetas{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenetas img{
+    width: $width + 80px;
+    height: 300px;
+}
+
+.figure{
+    &-caption{
+        display: flex;
+        justify-content: center;
+        font-family: 'Delius Swash Caps', cursive;
+        font-weight: bold;
+    }
+}
+
+.camelCase{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.camelCase img {
+    width: $widthb - 420px;
+    height: 300px;
+}
+
+.lista {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.modal {
+    &-titles{
+      display: inline-block;
+      margin-left: 185px;
+      text-decoration: underline;
+    }
+}
+
+.dropdown{
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+   
+}
+
+.pie{
+    &__graxj{
+        font-family: 'Ephesis', cursive;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+}
+
+.soft li a {
+    display: flex;
+    justify-content: center;
+}
+@media screen and (min-width: 374px) and (max-width: 375px) {
+    .menut ul li {
+        margin-left: -31.8px;
+        margin-top: 3px;
+       }
+    
+       .miMenu{
+           width: 375px;
+        }
+    
+        .subtet{
+            margin-left: -12px;
+            font-size: 15px;
+            letter-spacing: 2px;
+        }
+             
+        .modal-titles{
+            margin-left: 120px;
+        }
+         
+        .pie__graxj {
+            font-size: 14px;
+        }
+    
+}
+@media screen and (min-width: 413px) and (max-width: 414px) {
+.menut ul li {
+    margin-left: -24px;
+    margin-top: 3px;
+   }
+
+   .miMenu{
+       width: 414px;
+    }
+
+    .subtet{
+        margin-left: -12px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+         
+    .modal-titles{
+        margin-left: 120px;
+    }
+     
+    .pie__graxj {
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (min-width: 427px) and (max-width: 428px) {
+    .menut ul li {
+        margin-left: -26px;
+        margin-top: 3px;
+       }
+    
+       .miMenu{
+           width: 414px;
+        }
+    
+        .subtet{
+            margin-left: -12px;
+            font-size: 15px;
+            letter-spacing: 3px;
+        }
+             
+        .modal-titles{
+            margin-left: 120px;
+        }
+         
+        .pie__graxj {
+            font-size: 15px;
+        }
+    
+}
+@media  screen and (min-width: 767px) and (max-width: 768px) {
+
+    .menut ul li {
+        margin-left: 2px;
+        margin-top: 3px;
+       }
+    
+       .miMenu{
+           width: 768px;
+        }
+    
+        .subtet{
+            margin-left: -12px;
+            font-size: 25px;
+            letter-spacing: 3px;
+        }
+             
+        .modal-titles{
+            margin-left: 160px;
+            font-size: 30px;
+        }
+
+        .modal-body{
+            font-size: 22px;
+        }
+         
+        .pie__graxj {
+            font-size: 30px;
+        }
+    
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1024px) {
+    .subtet{
+        letter-spacing: 5px;
+        font-size: 35px;
+    }
+}

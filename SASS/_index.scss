@@ -1,0 +1,472 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+/*Home*/
+
+@keyframes header {
+    1% {
+        background-color: $color1;
+    }
+
+    52% {
+        background-color: $color2;
+    }
+    
+    98% {
+        background-color: $color3;
+    }
+
+    
+}
+
+header {
+    position: sticky;
+    z-index: 2;
+    top: 0;
+}
+
+.principal {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  animation-name: header;
+  animation-iteration-count: infinite;
+  animation-duration: 20s;
+  animation-timing-function: ease-in;
+ &__titulo{
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+    font-size: 3rem;
+    color: black;
+    margin-top: 10px;
+    
+   }
+
+}  
+
+.menu ul li {
+   display: inline-block;
+   margin-right: 30px;
+   margin-top: 30px;
+   border: 2px double black;
+
+}
+
+.sub {
+    margin-left: -70px;
+    display: none;
+    position: absolute;
+    margin-top: -15px;
+}
+
+
+ul li a{
+    font-family: 'Enriqueta', serif;
+    font-size: 25px;
+    cursor: pointer;
+    color: black;
+    background-image: linear-gradient(to right, pink, orange);
+    transition: all 3ms;
+ }
+
+ a:focus{
+     font-size: 35px;
+ }
+
+
+li.naus:hover ul.sub{
+    display: block;
+}
+
+.menues {
+    background-color: rgb(156, 134, 138); ;
+}
+.animate__animated {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Fleur De Leah', cursive;
+    font-size: 4rem;
+    
+}
+
+.suz {
+    font-family: 'Open Sans Condensed', sans-serif;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 25px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+  
+}
+
+.fainal {
+    height: 163px;
+}
+
+.final {
+    height: 163px;
+}
+/*Color body*/
+
+.cuerpa{
+    background-color: lightblue;
+}
+
+/*Estilos a las Cards*/
+.card {
+    &-texts {
+        font-family: 'Gideon Roman', cursive;
+        font-size: 20px;
+        font-weight: bold;
+      
+        }&-bodys{
+            background-color: rgb(223, 179, 37);
+            height: 243px;
+        }
+}
+
+.card {
+    &-texte{
+        font-family: 'Be Vietnam Pro', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+    }&-bodyes{
+        background-color: rgb(142, 149, 190);
+        height: 243px;
+    }
+}
+
+.card{
+    &-texti{
+        font-family: 'Comfortaa', cursive;
+        font-size: 16.6px;
+        font-weight: bold;
+        
+    }&-bodyz{
+        height: 243px;
+        background-color: rgb(51, 143, 143);
+        
+    }
+}
+
+/*footer*/
+
+.pie{
+    &__grax{
+        font-family: 'Ephesis', cursive;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 374px) and (max-width: 375px) {
+    .principal{
+        display: inline-block;
+        width: 375px;
+    }
+
+    .principal__titulo{
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+    .menues{
+        width: 375px;
+    }
+    .menu ul li {
+        margin-left: -25px;
+        margin-top: -1px;
+    }
+    
+     ul li a {
+         font-size: 15px;
+     }
+     
+   
+     .animate__animated {
+         font-size: 22px;
+         margin-left: -18px;
+        
+     }
+
+     .suz{
+         font-size: 20px;
+         letter-spacing: 2px;
+     }
+
+     .sub{
+         margin-top: 8px;
+         margin-left: -35px;
+     }
+
+     .card{
+         height: 850px;
+       
+     }
+
+     .card-bodys{
+         height: 850px;
+     }
+
+     .card-bodyes{
+         height: 850px;
+     }
+
+     .card-bodyz{
+         height: 850px;
+     }
+
+     .card img{
+         height: 130px;
+         
+     }
+
+     .pie{
+         width: 375px;
+     }
+
+     .pie__grax{
+         font-size: 14px;
+     }
+}
+
+@media screen and (min-width: 413px) and (max-width: 414px){
+
+    .principal{
+        display: inline-block;
+        width: 414px;
+    }
+
+    .principal__titulo{
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+    .menues{
+        width: 414px;
+    }
+    .menu ul li {
+        margin-left: -17px;
+        margin-top: -1px;
+    }
+    
+     ul li a {
+         font-size: 15px;
+     }
+     
+   
+     .animate__animated {
+         font-size: 28px;
+         margin-left: -18px;
+        
+     }
+
+     .suz{
+         font-size: 20px;
+         letter-spacing: 4px;
+     }
+
+     .sub{
+         margin-top: 8px;
+         margin-left: -35px;
+     }
+
+     .card{
+         height: 850px;
+       
+     }
+
+     .card-bodys{
+         height: 850px;
+     }
+
+     .card-bodyes{
+         height: 850px;
+     }
+
+     .card-bodyz{
+         height: 850px;
+     }
+
+     .card img{
+         height: 130px;
+         
+     }
+
+     .pie{
+         width: 414px;
+     }
+
+     .pie__grax{
+         font-size: 17px;
+     }
+}   
+
+@media screen and (min-width: 427px) and (max-width: 428px) {
+    .principal{
+        display: inline-block;
+        width: 428px;
+        height: 130px;
+    }
+    
+    .principal__titulo{
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+    }
+    .menues{
+        margin-top: 5px;
+        width: 428px;
+    }
+    .menu ul li {
+        margin-left: -18px;
+        margin-top: 5px;
+    }
+    
+     ul li a {
+         font-size: 16px;
+     }
+     
+   
+     .animate__animated {
+         font-size: 28px;
+         margin-left: -18px;
+        
+     }
+
+     .suz{
+         font-size: 20px;
+         letter-spacing: 4px;
+     }
+
+     .sub{
+         margin-top: 8px;
+         margin-left: -38px;
+     }
+
+     .card{
+         height: 860px;
+       
+     }
+
+     .card-bodys{
+         height: 850px;
+     }
+
+     .card-bodyes{
+         height: 850px;
+     }
+
+     .card-bodyz{
+         height: 850px;
+     }
+
+     .card img{
+         height: 130px;
+         
+     }
+
+     .pie{
+         width: 428px;
+     }
+
+     .pie__grax{
+         font-size: 18px;
+     }
+    
+}
+
+@media screen and (min-width: 767px) and (max-width: 768px) {
+
+    .principal{
+        display: inline-block;
+        width: 768px;
+        height: 130px;
+    }
+    
+    .principal__titulo{
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+    }
+    .menues{
+        margin-top: 5px;
+        width: 768px;
+    }
+    .menu ul li {
+        margin-left: 15px;
+        margin-top: 14px;
+    }
+    
+     ul li a {
+         font-size: 25px;
+     }
+     
+   
+     .animate__animated {
+         font-size: 48px;
+         margin-left: -18px;
+        
+     }
+
+     .suz{
+         font-size: 20px;
+         letter-spacing: 4px;
+     }
+
+     .sub{
+         margin-top: 8px;
+         margin-left: -80px;
+     }
+
+     .card{
+         height: 460px;
+       
+     }
+
+     .card-bodys{
+         height: 850px;
+     }
+
+     .card-bodyes{
+         height: 850px;
+     }
+
+     .card-bodyz{
+         height: 850px;
+     }
+
+     .card img{
+         height: 130px;
+         
+     }
+
+     .pie{
+         width: 768px;
+     }
+
+     .pie__grax{
+         font-size: 32px;
+     }
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1024px) {
+ 
+    .suz{
+        font-size: 35px;
+        letter-spacing: 10px;
+    }
+    
+}

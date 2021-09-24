@@ -1,0 +1,36 @@
+/*footer*/
+
+@keyframes pata {
+    1% {
+        background-color: $color1;
+    }
+
+    52% {
+        background-color: $color2;
+    }
+    
+    98% {
+        background-color: $color3;
+    }
+
+    
+}
+
+
+
+.pie{
+    animation-name: pata;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    animation-timing-function: ease-in;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+ }
+
+p a {
+    border: 2px double black;
+    background-image: linear-gradient(to left, pink, orange);
+    color: black;
+}

@@ -1,0 +1,532 @@
+/*Contacto*/
+.menuv ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 30px;
+    border: 2px double black;
+ 
+ }
+
+
+.context{
+    background-color: $bgcolor5;
+}
+
+.context{
+    &__suze{
+        display: flex;
+        justify-content: center;
+        letter-spacing: 20px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 30px;
+        margin-top: 30px;
+    }   
+}
+
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    
+    
+}
+
+.de img {
+    border-style: double;
+    height: 120px;
+    width: auto;
+    margin-left: 1000px;
+    margin-top:-100px
+}
+.argentina img {
+    border-style: double;
+    height: 120px;
+    width: auto;
+    margin-left: 1000px;
+}
+
+.paraEl img {
+    border-style: double;
+    height: 120px;
+    width: auto;
+    margin-left: 1000px;
+}
+
+.mundo img {
+    border-style: double;
+    height: 120px;
+    width: auto;
+    margin-left: 1000px;
+}
+
+
+.af {
+ 
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .redesSociales{
+
+       &__titulo{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-family: 'Birthstone', cursive;
+          font-weight: bold;
+          font-size: 40px;
+          text-decoration: underline;
+      }
+  }
+  
+
+  .co{
+      background-color: lightblue;
+  }
+
+  .conten{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 350px;
+    height: 700px;
+    margin-left: 100px;
+    align-items: flex-end;
+    
+}
+.conten div img{
+    height: 100px;
+    border-style: double;
+
+}
+
+
+
+.limpia{
+    order: 1 ;
+}
+
+.dipo {
+    order: 3;
+}
+
+.yatusa{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+@keyframes Cont {
+    1% {
+        background-image: url(../Multimedia/atucha-1-min.jpg);
+        background-position-y: -60px;
+    }
+    
+    52% {
+        background-image: url(../Multimedia/atucha12-min.jpg);
+        background-position-y: 30px;
+    }
+
+    98%{
+        background-image: url(../Multimedia/embalse-min.jpg);
+        background-position-x: -50px;
+        background-position-y: -150px;
+    }
+}
+
+
+.cuadro {
+    margin-top: 120px;
+    height: 300px;
+    width: 500px;
+    animation-name: Cont;
+    animation-iteration-count: infinite;
+    animation-duration: 30s;
+    animation-timing-function: ease-in;
+    &__lluvia{
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: underline;
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+        background-color: orange;
+    }
+}
+
+
+.eee{
+    color: white;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 30px;
+    display: inline-block;
+    background-color: green;
+    letter-spacing: 10px;
+    
+
+}
+
+#Nombrer{
+    display: flex;
+    margin-left: 180px;
+    margin-top: -39px;
+    height: 40px;
+    width: 110px;
+    cursor: pointer;
+    transition: all 3s;
+    background-color: $color2;
+ 
+}
+
+#Email {
+    display: flex;
+    margin-left: 160px;
+    margin-top: -39px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    transition: all 3s;
+    background-color: $color2;
+}
+
+#Area{
+    display: flex;
+    margin-left: 230px;
+    margin-top: -39px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    transition: all 3s;
+    background-color: $color2;
+}
+
+
+#Nombrer:focus{
+    height: 60px;
+    width: 200px;
+}
+
+#Email:focus{
+    height: 60px;
+    width: 200px;
+}
+
+#Area:focus {
+    height: 60px;
+    width: 200px;
+}
+
+.ewe{
+    display: inline-block;
+    margin-left: 190px;
+}
+
+
+.yatu{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+
+@keyframes Conte {
+    1% {
+        background-image: url(../Multimedia/reactor-min.jpg);
+        background-position-y: -100px;
+        background-position-x: -130px;
+
+    }
+
+    52% { 
+        background-image: url(../Multimedia/turbina-min.jpg);
+        background-position-y: -400px;
+        background-position-x: -500px;
+
+    }    
+
+    98% {
+        background-image: url(../Multimedia/saladecontrol-min.jpg);
+        background-position-y: -290px;
+    }
+}
+
+
+.contextq {
+    margin-top: 130px;
+    height: 300px;
+    width: 500px;
+    animation-name: Conte;
+    animation-iteration-count: infinite;
+    animation-duration: 30s;
+    
+    &__lluv{
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: underline;
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+        background-color: orange;
+    }
+}
+
+
+.eees{
+    font-weight: bold;
+    color: black;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.ub{
+    &__titux{
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        font-weight: bold;
+        font-size: 4rem;
+        font-family: 'Fleur De Leah', cursive;
+        color: rgb(8, 112, 126);
+
+    }
+}
+
+
+.ubic{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+@media screen and (min-width: 374px) and (max-width: 375px) {
+    .menuv ul li {
+        margin-left: -7.1px;
+        margin-top: 6px;
+    }
+
+    .context{
+        width: 375px;
+    }
+
+    .context__suze{
+           letter-spacing: 2px;
+          font-size: 20px;
+          margin-left: -15px;
+    }
+
+    .contextq {
+        width: 375px;
+    }
+
+    .cuadro{
+        width: 375px;
+    }
+
+    .cuadro__lluvia {
+        font-size: 18px;
+    }
+
+    .ubic {
+        display: inline-block;
+    }
+
+    iframe{
+        width: 375px;
+    }
+
+    .conten  {
+        display: flex;
+        flex-direction: column;
+        margin-top: 450px;
+        margin-left: -50px;
+    }
+
+    .flex{
+        display: flex;
+        align-content: flex-end;
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 413px) and (max-width: 414px) {
+
+    .menuv ul li {
+        margin-left: -1px;
+        margin-top: 8px;
+    }
+
+    .context{
+        width: 414px;
+    }
+
+    .context__suze{
+           letter-spacing: 2px;
+          font-size: 20px;
+          margin-left: -15px;
+    }
+
+    .contextq {
+        width: 414px;
+    }
+
+    .cuadro{
+        width: 414px;
+    }
+
+    .cuadro__lluvia {
+        font-size: 23px;
+    }
+
+    .ubic {
+        display: inline-block;
+    }
+
+    iframe{
+        width: 414px;
+    }
+
+    .conten  {
+        display: flex;
+        flex-direction: column;
+        margin-top: 450px;
+        margin-left: -50px;
+    }
+
+    .flex{
+        display: flex;
+        align-content: flex-end;
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 427px) and (max-width: 428px) {
+
+      .menuv ul li {
+        margin-left: -1px;
+        margin-top: 8px;
+    }
+
+    .context{
+        width: 428px;
+    }
+
+    .context__suze{
+           letter-spacing: 2px;
+          font-size: 22px;
+          margin-left: -15px;
+    }
+
+    .contextq {
+        width: 428px;
+    }
+
+    .cuadro{
+        width: 428px;
+    }
+
+    .cuadro__lluvia {
+        font-size: 23px;
+    }
+
+    .ubic {
+        display: inline-block;
+    }
+
+    iframe{
+        width: 428px;
+    }
+
+    .conten  {
+        display: flex;
+        flex-direction: column;
+        margin-top: 450px;
+        margin-left: -50px;
+    }
+
+    .flex{
+        display: flex;
+        align-content: flex-end;
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 768px) {
+
+     .menuv ul li {
+        margin-left: 26px;
+        margin-top: 8px;
+    }
+
+    .context{
+        width: 768px;
+    }
+
+    .context__suze{
+           letter-spacing: 2px;
+          font-size: 20px;
+          margin-left: -15px;
+    }
+
+    .contextq {
+        width: 500px;
+    }
+
+    .cuadro{
+        width: 500px;
+    }
+
+    .cuadro__lluvia {
+        font-size: 30px;
+    }
+
+    .ubic {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    iframe{
+        width: 250px;
+        
+    }
+
+    .conten  {
+        display: flex;
+        flex-direction: row;
+        margin-left: 10px;
+        margin-top: 50px;
+       
+    }
+
+    .flex{
+        display: flex;
+        align-content: flex-end;
+        flex-direction: column;
+    }
+
+    .redesSociales__titulo{
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1024px) {
+    .context__suze{
+        letter-spacing: 10px;
+        font-size: 35px;
+        
+    }
+    
+    .flex{
+        display: flex;
+        align-content: flex-end;
+        flex-direction: column;
+    }
+ 
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EN / Funciona</title>
+    <!--css-->
+    <link rel="stylesheet" href="../css/style.css">
+    <!--SEO-->
+    <meta name="description" content="Como Funciona una Central Nuclear">
+    <meta name="keywords" content="central, nuclear, reactor, agua pesada, barras de uranio, agua de rio">
+    <!--Fuentes-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Enriqueta&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+    </style>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+
+</head>
+
+<body class="func">
+
+    <header class="principal">
+        <h1 class="principal__titulo">Como Funciona</h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./Nosotros.html">Nosotros</a></li>
+                <li><a href="./Galeria.html">Galería</a></li>
+                <li><a href="./Reuniones.html">Reuniones</a></li>
+                <li><a href="./Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="kl">
+        <p class="kl__central">Centrales en Argentina</p>
+    </div>
+    <main class="menu__func">
+        <div class="cards" style="width: 18rem;">
+            <img src="../Multimedia/atucha12-min.jpg" class="card-img-top" alt="central">
+            <div class="cards-body">
+                <p class="cards-text">Inició su construcción en junio de 1968 y se convirtió en la primera central
+                    nuclear de potencia en
+                    América Latina. Fue conectada al sistema eléctrico nacional el 19 de marzo de 1974 y comenzó su
+                    producción comercial
+                    el 24 de junio de ese mismo año.
+                </p>
+            </div>
+        </div>
+
+        <div class="cards" style="width: 20rem;">
+            <img src="../Multimedia/atucha22-min.jpg" class="card-img-top" alt="atucha2">
+            <div class="cards-body">
+                <p class="cards-text">Comenzó a entregar energía a la red el 27 de junio de 2014, luego de que su
+                    construcción estuviera paralizada de 1994 hasta 2006. Tras la finalización de su construcción
+                    en el marco de la reactivación del plan Nuclear, alcanzó su primera criticidad el 3 de junio
+                    de 2014, y el 27 de ese mismo mes se sincronizó al sistema interconectado nacional.
+                </p>
+            </div>
+        </div>
+
+        <div class="cards" style="width: 16rem;">
+            <img src="../Multimedia/embalse.jpg"" class=" card-img-top" alt="embalse">
+            <div class="cards-body">
+                <p class="cards-text"> Su construcción se inició el 7 de mayo de 1974. El 20 de enero de 1984 comenzó su
+                    operación
+                    comercial y finalizó su primer ciclo operativo el 31 de diciembre de 2015. Luego de completar el
+                    proyecto de extensión de vida, la central alcanzó con éxito la puesta a crítico de su reactor el
+                    4 de enero de 2019, inciando el segundo ciclo operativo por un ciclo de 30 años.
+                </p>
+            </div>
+        </div>
+
+
+    </main>
+
+    <div class="caja">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Paso a Paso
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Como funciona una central Nuclear</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        1) La fisión del uranio se lleva a cabo en el reactor nuclear, liberando una gran cantidad de
+                        energía que calienta el agua hasta evaporarla. <br>
+                        2) Este Vapor se transporta al conjunto turbina-generador mediante un circuito de vapor. <br>
+                        3) Una vez ahí, las aspas de la turbina giran por la acción del vapor y mueven el generador que
+                        transforma la energía mecánica en electricidad. <br>
+                        4) Cuando el vapor de agua ha pasado por la turbina, se envía a un condensador donde se enfría
+                        y se vuelve líquido. <br>
+                        5) Después, el agua se transporta para volver a conseguir vapor, cerrando así el circuito del
+                        agua.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="vide">
+        <video src="../Multimedia/video-nuclear.mp4" controls autoplay loop></video>
+
+    </div>
+
+
+    <footer class="pie">
+        <p class="pie__graxo">Gracias por visitarnos, te invitamos a que veas nuestra
+            <a href="../HTML/Galeria.html">Galería</a>
+        </p>
+    </footer>
+    <!--Bootstrap con JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
