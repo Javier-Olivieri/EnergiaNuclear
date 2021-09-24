@@ -274,8 +274,11 @@ li.naus:hover ul.sub{
      }
 
      .suz{
-         font-size: 20px;
-         letter-spacing: 4px;
+         font-size: 15px;
+         letter-spacing: 2px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
      }
 
      .sub{
@@ -310,7 +313,7 @@ li.naus:hover ul.sub{
      }
 
      .pie__grax{
-         font-size: 17px;
+         font-size: 12px;
      }
 }   
 
