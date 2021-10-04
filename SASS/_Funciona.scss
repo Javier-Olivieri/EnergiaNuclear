@@ -80,141 +80,39 @@
         font-weight: bold;
     }
 }
-@media screen and (min-width: 374px) and (max-width: 375px) {
-    .kl__central{
-        font-size: 38px;
-        
-    }
 
-    .cards-body{
-        height: 830px;
-    }
+@media screen and (max-width: 767px) {
+ .kl {
+     width: 100%;
+ }
 
-    .modal-title{
-        font-size: 15px;
-        margin-left: 40px;
-    }
+ .kl__central {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 20px;
+ }
 
-    .vide video{
-        width: 375px;
-    }
+ .menu__func {
+     width: 100%;
+ }
 
-    .pie__graxo{
-        font-size: 18px;
-        margin-left: -8px;
-    }
+ .cards {
+     width: 100%;
+ }
 
-}
-@media screen and (min-width: 413px) and (max-width: 414px) {
-
-    .kl__central{
-        font-size: 38px;
-    }
-
-    .cards-body{
-        height: 700px;
-    }
-
-    .modal-title{
-        font-size: 15px;
-    }
-
-    .vide video{
-        width: 414px;
-    }
-
-    .pie__graxo{
-        font-size: 17px;
-    }
+ .cards-body {
+     height: 48%;
+ }
 
 
-}
+ .vide video {
+     width: 100%;
+ }
 
-@media screen and (min-width: 427px) and (max-width: 428px) {
-    .kl__central{
-        font-size: 40px;
-    }
+ .cards-text{
+     font-size: 10px;
+  
+ }
 
-    .cards-body{
-        height: 700px;
-    }
-
-    .modal-title{
-        font-size: 18px;
-        margin-left: 35px;
-    }
-
-    .vide video{
-        width: 428px;
-    }
-
-    .pie__graxo{
-        font-size: 20px;
-    }
-    
-}
-
-@media screen and (min-width: 767px) and (max-width: 768px) {
-    .kl__central{
-        font-size: 55px;
-    }
-
-    .cards-body{
-        height: 350px;
-    }
-
-    .modal-title{
-        font-size: 18px;
-        margin-left: 85px;
-    }
-
-    .vide video{
-        width: 768px;
-    }
-
-    .pie__graxo{
-        font-size: 38px;
-    }
-
-
-}
-
-@media screen and (min-width: 1023px) and (max-width: 1024px)  {
-    .cards-body{
-        height: 320px;
-    }
-    
-}
-
-@media screen and (min-width: 1279px) and (max-width: 1280px) {
-    .cards-body{
-        height: 320px;
-    }
-}
-
-@media screen and (min-width: 1339px) and (max-width: 1440px) {
-    .cards-body{
-        height: 350px;
-    }
-
-    
-}
-
-@media screen and (min-width: 1919px) and (max-width: 1920px) {
-    .cards-body{
-        height: 330px;
-    }
-    
-}
-
-@media screen and (min-width: 2559px) {
- 
-     .cards-body {
-         height: 330px;
-     }
-
-     .pie__graxo{
-         font-size: 50px;
-     }
-    
 }

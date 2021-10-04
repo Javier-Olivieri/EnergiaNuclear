@@ -97,236 +97,95 @@
 .ns {
     background-color: lightblue;
 }
-@media screen and (min-width: 374px) and (max-width: 375px) {
 
-    .menus ul li {
-      margin-left: -33.7px;
-      margin-top: 1px;
-  }
+@media screen and (max-width: 767px) {
+     .principal {
+         display: flex;
+         width: 100%;
+     }
 
-  .conteneta {
-      width: 375px;
-      margin-left: -10px;
-      grid-template-columns: 120px 120px 120px;
-      grid-template-rows: 100px 100px 100px;
-  }
-
-  .hea{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 19px;
-  }
-
-  .nave{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 10.8px;
-  }
-
-  .art{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 5.6px;
-  }
-
-  .asi {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 15px;
-  }
-
-  .foo {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 21px;
-  }
-
-  .conte img{
-      width: 375px;
-  }
-  
-  .pie__graxi{
-      font-size: 13.7px;
-  }
-}
-@media screen and (min-width: 413px) and (max-width: 414px) {
+     .menus ul li {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         background-image: linear-gradient(to right, pink, orange);
+         margin-top: 5px;
+     }
     
-  .menus ul li {
-      margin-left: -26px;
-      margin-top: 3px;
-  }
+     .conte img{
+         width: 100%;
+     }
 
-  .conteneta {
-      width: 414px;
-      margin-left: -8px;
-      grid-template-columns: 131px 131px 131px;
-      grid-template-rows: 100px 100px 100px;
-  }
+     .obje {
+         width: 100%;
+     }
+     
+     .lele {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-size: 25px;
+     }
 
-  .hea{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 23px;
-  }
 
-  .nave{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 10px;
-  }
+     .conteneta {
+         width: 100%;
+        grid-template-columns: auto auto auto;
+        margin-top: 130px;
+     }
+     
 
-  .art{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 4.6px;
-  }
 
-  .asi {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 17px;
-  }
+     .hea {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-size: 25px;
+     }
 
-  .foo {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 23px;
-  }
+     .foo {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-size: 25px;
+     }
 
-  .conte img{
-      width: 375px;
-  }
-  
-  .pie__graxi{
-      font-size: 10px;
-  }
-} 
-@media screen and (min-width: 427px) and (max-width: 428px) {
-    .menus ul li {
-        margin-left: -27.4px;
-        margin-top: 3px;
-    }
-  
-    .conteneta {
-        width: 428px;
-        grid-template-columns: 131px 131px 131px;
-        grid-template-rows: 100px 100px 100px;
-        margin-left: -5px;
-    }
-  
-    .hea{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 22px;
-    }
-  
-    .nave{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 11px;
-    }
-  
-    .art{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 6.5px;
-    }
-  
-    .asi {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 17px;
-    }
-  
-    .foo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 23px;
-    }
-  
-    .conte img{
-        width: 428px;
-    }
-    
-    .pie__graxi{
-        font-size: 13px;
-    }
-}
-@media  screen and (min-width: 767px) and (max-width: 768px) {
 
-    .menus ul li {
-        margin-left: 1px;
-        margin-top: 3px;
-    }
-  
-    .conteneta {
-        width: 768px;
-        grid-template-columns: 231px 231px 231px;
-        grid-template-rows: 100px 100px 100px;
-    }
-  
-    .hea{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 35px;
-    }
-  
-    .nave{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 20px;
-    }
-  
-    .art{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 12px;
-    }
-  
-    .asi {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 27px;
-    }
-  
-    .foo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 35px;
-    }
-  
-    .conte img{
-        width: 768px;
-    }
-    
-    .pie__graxi{
-        font-size: 30px;
-    }
-    
+     .art {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-size: 9px;
+         font-weight: bold;
+     }
+
+     .nave{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-size: 12px;
+     }
+
+     .asi {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-size: 12px;
+     }
+   
+
 }
 
-@media screen and (min-width: 1023px) and (max-width: 1024px) {
-    .art {
-        font-size: 28px;
-    }
+@media screen and (min-width: 768px) {
+     .menus ul li {
+         margin-top: 7px;
+     }
+
+     .art {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-size: 16px;
+     }
+    
 }

@@ -171,305 +171,196 @@ li.naus:hover ul.sub{
     }
 }
 
-@media screen and (min-width: 374px) and (max-width: 375px) {
-    .principal{
-        display: inline-block;
-        width: 375px;
-    }
 
-    .principal__titulo{
+
+@media screen and (max-width: 767px) {
+    .principal {
         display: flex;
-        justify-content: center;
-        font-size: 30px;
+        width: 100%;
+        height: auto;
     }
-    .menues{
-        width: 375px;
-    }
-    .menu ul li {
-        margin-left: -25px;
-        margin-top: -1px;
-    }
-    
-     ul li a {
-         font-size: 15px;
-     }
      
-   
-     .animate__animated {
-         font-size: 22px;
-         margin-left: -18px;
-        
-     }
 
-     .suz{
-         font-size: 20px;
-         letter-spacing: 2px;
-     }
-
-     .sub{
-         margin-top: 8px;
-         margin-left: -35px;
-     }
-
-     .card{
-         height: 850px;
-       
-     }
-
-     .card-bodys{
-         height: 850px;
-     }
-
-     .card-bodyes{
-         height: 850px;
-     }
-
-     .card-bodyz{
-         height: 850px;
-     }
-
-     .card img{
-         height: 130px;
-         
-     }
-
-     .pie{
-         width: 375px;
-     }
-
-     .pie__grax{
-         font-size: 14px;
-     }
-}
-
-@media screen and (min-width: 413px) and (max-width: 414px){
-
-    .principal{
-        display: inline-block;
-        width: 414px;
-    }
-
-    .principal__titulo{
-        display: flex;
-        justify-content: center;
-        font-size: 30px;
-    }
-    .menues{
-        width: 414px;
+    .principal__titulo {
+      font-size: 35px;
     }
     .menu ul li {
-        margin-left: -17px;
-        margin-top: -1px;
-    }
-    
-     ul li a {
-         font-size: 15px;
-     }
-     
-   
-     .animate__animated {
-         font-size: 28px;
-         margin-left: -18px;
-        
-     }
-
-     .suz{
-         font-size: 15px;
-         letter-spacing: 2px;
-         display: flex;
-         justify-content: center;
-         align-items: center;
-     }
-
-     .sub{
-         margin-top: 8px;
-         margin-left: -35px;
-     }
-
-     .card{
-         height: 850px;
-       
-     }
-
-     .card-bodys{
-         height: 850px;
-     }
-
-     .card-bodyes{
-         height: 850px;
-     }
-
-     .card-bodyz{
-         height: 850px;
-     }
-
-     .card img{
-         height: 130px;
-         
-     }
-
-     .pie{
-         width: 414px;
-     }
-
-     .pie__grax{
-         font-size: 12px;
-     }
-}   
-
-@media screen and (min-width: 427px) and (max-width: 428px) {
-    .principal{
-        display: inline-block;
-        width: 428px;
-        height: 130px;
-    }
-    
-    .principal__titulo{
         display: flex;
-        justify-content: center;
-        font-size: 40px;
-    }
-    .menues{
-        margin-top: 5px;
-        width: 428px;
-    }
-    .menu ul li {
-        margin-left: -18px;
+        flex-direction: column;
+        align-items: center;
+        background-image: linear-gradient(to right, pink, orange);
         margin-top: 5px;
     }
-    
-     ul li a {
-         font-size: 16px;
-     }
-     
-   
-     .animate__animated {
-         font-size: 28px;
-         margin-left: -18px;
-        
-     }
 
-     .suz{
-         font-size: 20px;
-         letter-spacing: 4px;
-     }
+    ul li a {
+        font-size: 15px;
+    }
 
-     .sub{
-         margin-top: 8px;
-         margin-left: -38px;
-     }
-
-     .card{
-         height: 860px;
+    .sub li  {
+        margin-left: -125px;
        
-     }
-
-     .card-bodys{
-         height: 850px;
-     }
-
-     .card-bodyes{
-         height: 850px;
-     }
-
-     .card-bodyz{
-         height: 850px;
-     }
-
-     .card img{
-         height: 130px;
-         
-     }
-
-     .pie{
-         width: 428px;
-     }
-
-     .pie__grax{
-         font-size: 18px;
-     }
-    
-}
-
-@media screen and (min-width: 767px) and (max-width: 768px) {
-
-    .principal{
-        display: inline-block;
-        width: 768px;
-        height: 130px;
     }
-    
-    .principal__titulo{
-        display: flex;
-        justify-content: center;
-        font-size: 40px;
-    }
-    .menues{
-        margin-top: 5px;
-        width: 768px;
-    }
-    .menu ul li {
-        margin-left: 15px;
-        margin-top: 14px;
-    }
-    
-     ul li a {
-         font-size: 25px;
-     }
-     
-   
-     .animate__animated {
-         font-size: 48px;
-         margin-left: -18px;
-        
-     }
 
-     .suz{
-         font-size: 20px;
-         letter-spacing: 4px;
-     }
+    .sub .func {
+       margin-top: 13px;
+   }
 
-     .sub{
-         margin-top: 8px;
-         margin-left: -80px;
-     }
+   .menues {
+       width: 100%;
+   }
 
-     .card{
-         height: 460px;
-       
-     }
+   .animate__animated {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       font-size: 25px;
+   }
 
-     .card-bodys{
-         height: 850px;
-     }
+   .suz {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       font-size: 15px;
+       letter-spacing: 5px;
+   }
 
-     .card-bodyes{
-         height: 850px;
-     }
-
-     .card-bodyz{
-         height: 850px;
-     }
-
-     .card img{
-         height: 130px;
-         
-     }
-
-     .pie{
-         width: 768px;
-     }
-
-     .pie__grax{
-         font-size: 32px;
-     }
-}
-
-@media screen and (min-width: 1023px) and (max-width: 1024px) {
+   .container {
+       margin-top: -5px;
+   }
  
-    .suz{
-        font-size: 35px;
-        letter-spacing: 10px;
-    }
+ .fisi {
+     display: flex;
+     height: 25%;
+ }
+
+ .fainal {
+     display: flex;
+     height: 25%;
+ }
+
+ .final {
+     display: flex;
+     height: 25%;
+ }
+  
+.card-bodys {
+    height: 84%;
+}
+
+.card-bodyes {
+  height: 84%;
+}
+
+.card-bodyz {
+    height: 84%;
+}
+ 
+.card-texts {
+    font-size: 15px;
     
+}
+
+.card-texte {
+    font-size: 15.6px;
+}
+
+.card-texti{
+    font-size: 12px;
+}
+    
+}
+
+@media screen and (min-width: 767px) {
+    .principal {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .principal__titulo {
+        font-size: 25px;
+        display: flex;
+        
+   
+    }
+
+    .menu ul li {
+        display: inline-block;
+        background-image: linear-gradient(to right, pink, orange);
+        margin-top: 5px;
+    }
+      
+    ul li a {
+        font-size: 20px;
+    }
+
+    .sub .func {
+        margin-top: 21px;
+        margin-left: 5px;
+    }
+
+    .menues {
+        width: 100%;
+
+    }
+
+    .animate__animated {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+    }
+
+    .suz {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 48px;
+        letter-spacing: 2px;
+    }
+    .container {
+        margin-top: -5px;
+    }
+  
+  .fisi {
+      display: flex;
+      height: 35%;
+  }
+ 
+  .fainal {
+      display: flex;
+      height: 35%;
+  }
+ 
+  .final {
+      display: flex;
+      height: 35%;
+  }
+   
+ .card-bodys {
+     height: 84%;
+ }
+ 
+ .card-bodyes {
+   height: 84%;
+ }
+ 
+ .card-bodyz {
+     height: 84%;
+ }
+  
+ .card-texts {
+     font-size: 15px;
+     
+ }
+ 
+ .card-texte {
+     font-size: 15.6px;
+ }
+ 
+ .card-texti{
+     font-size: 12px;
+ }
+
+
 }

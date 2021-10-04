@@ -34,3 +34,106 @@ p a {
     background-image: linear-gradient(to left, pink, orange);
     color: black;
 }
+
+
+@media screen and (max-width: 767px) {
+    .pie {
+        width: 100%;
+    }
+
+    .pie__grax {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+    }
+    
+    .pie__graxo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+    }
+
+    .pie__graxi {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+    }
+
+    .pie__graxu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size:  12px;
+    }
+
+    .pie__graxj {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+    }
+
+    .pie__graxb {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+    
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .pie {
+        width: 100%;
+
+    }
+
+    .pie__grax {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 28px;
+    }
+
+    .pie__graxo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 28px;
+    }
+
+    .pie__graxi {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 28px;
+    }
+     
+    .pie__graxu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 28px;
+    }
+
+  
+
+    .pie__graxj {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 28px;
+    }
+    
+    .pie__graxb {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 28px;
+    
+    }
+
+}
