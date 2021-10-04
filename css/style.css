@@ -286,9 +286,6 @@ li.naus:hover ul.sub {
     font-size: 15px;
     letter-spacing: 2px;
   }
-  .container {
-    margin-top: -5px;
-  }
   .fisi {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -302,19 +299,16 @@ li.naus:hover ul.sub {
     height: 25%;
   }
   .final {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     height: 25%;
   }
   .card-bodys {
-    height: 84%;
+    height: 35%;
   }
   .card-bodyes {
-    height: 84%;
+    height: 35%;
   }
   .card-bodyz {
-    height: 84%;
+    height: 35%;
   }
   .card-texts {
     font-size: 15px;
@@ -406,19 +400,20 @@ li.naus:hover ul.sub {
     height: 35%;
   }
   .card-bodys {
-    height: 84%;
+    height: 35%;
   }
   .card-bodyes {
-    height: 84%;
+    height: 35%;
   }
   .card-bodyz {
-    height: 84%;
+    height: 35%;
   }
   .card-texts {
     font-size: 15px;
   }
   .card-texte {
     font-size: 15.6px;
+    height: 35%;
   }
   .card-texti {
     font-size: 12px;
@@ -1579,7 +1574,7 @@ div .carousel-indicators {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    font-size: 15px;
+    font-size: 12px;
     letter-spacing: 2px;
   }
   .dropdown-menu {
