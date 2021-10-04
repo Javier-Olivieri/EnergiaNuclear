@@ -284,7 +284,7 @@ li.naus:hover ul.sub {
         -ms-flex-align: center;
             align-items: center;
     font-size: 15px;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
   }
   .container {
     margin-top: -5px;
@@ -847,7 +847,7 @@ li.naus:hover ul.sub {
         -ms-flex-align: center;
             align-items: center;
     font-size: 15px;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
   }
   .contextq {
     width: 100%;
@@ -1027,6 +1027,12 @@ li.naus:hover ul.sub {
   }
   .cards-text {
     font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 767px) {
+  .vide video {
+    width: 100%;
   }
 }
 
@@ -1386,7 +1392,7 @@ div .carousel-indicators {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    font-size: 9px;
+    font-size: 7px;
     font-weight: bold;
   }
   .nave {
@@ -1574,7 +1580,7 @@ div .carousel-indicators {
         -ms-flex-align: center;
             align-items: center;
     font-size: 15px;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
   }
   .dropdown-menu {
     background-image: -webkit-gradient(linear, left top, right top, from(pink), to(orange));
@@ -1695,7 +1701,7 @@ p a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    font-size: 12px;
+    font-size: 10px;
   }
   .pie__graxu {
     display: -webkit-box;
@@ -1707,7 +1713,7 @@ p a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    font-size: 12px;
+    font-size: 10px;
   }
   .pie__graxj {
     display: -webkit-box;
@@ -1719,7 +1725,7 @@ p a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    font-size: 12px;
+    font-size: 10px;
   }
   .pie__graxb {
     display: -webkit-box;
